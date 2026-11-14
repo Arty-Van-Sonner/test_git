@@ -1,16 +1,16 @@
-def amount(a: int, b: int) -> None:
+def amount(a: int, b: int) -> int:
     result = a + b
     return result
 
-def difference(a: int, b: int) -> None:
+def difference(a: int, b: int) -> int:
     result = a - b
     return result
 
-def product(a: int, b: int) -> None:
+def product(a: int, b: int) -> int:
     result = a * b
     return result
 
-def division(a: int, b: int) -> None:
+def division(a: int, b: int) -> float:
     result = a / b
     return result
 
